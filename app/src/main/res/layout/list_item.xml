@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_item_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Type"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/text_item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Description"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_item_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Location"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_item_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Date"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_delete_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+</LinearLayout>
